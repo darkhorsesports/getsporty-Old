@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_darkhorse_getsporty_domain_UserRole" modelAttribute="userRole" path="/userroles" versionField="none" z="a/nfr8D/KySQSKcxhBqA6PZf2+4=">
+        <field:input field="code" id="c_com_darkhorse_getsporty_domain_UserRole_code" required="true" z="VB9i/0fgiz8KG2RhHIxinZVzFNU="/>
+        <field:input field="description" id="c_com_darkhorse_getsporty_domain_UserRole_description" required="true" z="GX/uIyDdrgs5MX0zveFrRt4G80M="/>
+    </form:update>
+</div>

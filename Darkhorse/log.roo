@@ -1,0 +1,40 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-10-23 23:27:07
+project --topLevelPackage com.darkhorse.getsporty --projectName Darkhorse --java 6 --packaging JAR
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-10-23 23:27:09
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-10-23 23:30:56
+mongo setup 
+web mvc json setup
+web mvc setup
+security setup
+entity mongo --class ~.domain.User
+field string --fieldName Name
+field string --fieldName email
+field string --fieldName passwd
+field string --fieldName email --notNull
+field string --fieldName passwd --notNull
+field boolean --fieldName isEnabled
+field date --fieldName created --type java.util.Date
+entity mongo --class ~.domain.UserRole
+field string --fieldName code --notNull
+field string --fieldName description --notNull
+entity mongo --class ~.domain.User
+field set --fieldName userRoles --type ~.domain.UserRole
+repository mongo --interface ~.dao.UserDao --entity ~.domain.User
+service --interface ~.svc.UserSvc --entity ~.domain.User
+repository mongo --interface ~.dao.UserRoleDao --entity ~.domain.UserRole
+service --interface ~.svc.UserRoleSvc --entity ~.domain.UserRole
+web mvc json all
+json all
+web mvc json all
+web mvc json all --package ~.web.controller
+web mvc scaffold --backingType ~.domain.User --class ~.web.controller.UserController
+web mvc scaffold --backingType ~.domain.UserRole --class ~.web.controller.UserRoleController
+logging setup --level INFO 
+web mvc controller --class ~.web.controller.FirstController
+web mvc all --package ~.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-10-24 01:47:42
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-10-24 11:46:39
+help security setup 
+hint
+hint security setup
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-10-24 13:21:32

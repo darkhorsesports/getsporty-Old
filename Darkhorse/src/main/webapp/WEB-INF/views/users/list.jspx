@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_User" items="${users}" z="CZK2IsC3emeh/s6UhC4RTmwkKYw=">
+        <table:table data="${users}" id="l_com_darkhorse_getsporty_domain_User" path="/users" z="JupqxhHm5yvgicAo24MrMEtEw7I=">
+            <table:column id="c_com_darkhorse_getsporty_domain_User_email" property="email" z="LtLs5PMXyK60Tpn5AvtQxLjUfpQ="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_User_passwd" property="passwd" z="VOv9Ch+H8yj7/mZ5TzLGJVPIGyw="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_User_isEnabled" property="isEnabled" z="Wcw9LtaMwZ4rE5oIb3k22s7AKew="/>
+            <table:column date="true" dateTimePattern="${user_created_date_format}" id="c_com_darkhorse_getsporty_domain_User_created" property="created" z="jpy1ed6dye+/3n5x0NLTbCYIttU="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_User_userRoles" property="userRoles" z="kfGi735A9FJJG6SOvO2EcY5bTxU="/>
+        </table:table>
+    </page:list>
+</div>
