@@ -10,6 +10,14 @@ import java.util.Set;
 
 privileged aspect User_Roo_JavaBean {
     
+    public String User.getName() {
+        return this.name;
+    }
+    
+    public void User.setName(String name) {
+        this.name = name;
+    }
+    
     public String User.getEmail() {
         return this.email;
     }

@@ -7,5 +7,6 @@
         <field:display field="passwd" id="s_com_darkhorse_getsporty_domain_User_passwd" object="${user}" z="eYvS0ICtc4zv4x2BfJI7CPlJHrw="/>
         <field:display field="isEnabled" id="s_com_darkhorse_getsporty_domain_User_isEnabled" object="${user}" z="ST1uhkoZP7iHPzjaiC6pIcjVkfU="/>
         <field:display field="userRoles" id="s_com_darkhorse_getsporty_domain_User_userRoles" object="${user}" z="h5aeWp5iARBx/wVNP3A/mh5cfdY="/>
+        <field:display field="name" id="s_com_darkhorse_getsporty_domain_User_name" object="${user}" z="JwaqGHJJyMYi77lYK0ZzT09K9Ow="/>
     </page:show>
 </div>

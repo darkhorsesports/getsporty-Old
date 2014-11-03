@@ -27,7 +27,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<User, String> ApplicationConversionServiceFactoryBean.getUserToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.User, java.lang.String>() {
             public String convert(User user) {
-                return new StringBuilder().append(user.getEmail()).append(" ").append(user.getPasswd()).append(" ").append(user.getCreated()).toString();
+                return new StringBuilder().append(user.getName()).append(" ").append(user.getEmail()).append(" ").append(user.getPasswd()).append(" ").append(user.getCreated()).toString();
             }
         };
     }

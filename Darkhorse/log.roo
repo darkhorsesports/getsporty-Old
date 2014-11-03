@@ -38,3 +38,10 @@ help security setup
 hint
 hint security setup
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-10-24 13:21:32
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-11-03 10:36:16
+entity mongo --class ~.domain.CommonFields
+entity mongo --class ~.domain.Contact
+entity mongo --class ~.domain.Image
+entity mongo --class ~.domain.Player
+entity mongo --class ~.domain.Coach
+entity mongo --class ~.domain.Academy

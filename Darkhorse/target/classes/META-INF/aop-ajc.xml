@@ -1,0 +1,42 @@
+<aspectj>
+<aspects>
+<aspect name="com.darkhorse.getsporty.domain.Contact_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.UserRole_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.Image_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.User_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.CommonFields_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.UserRole_Roo_Json"/>
+<aspect name="com.darkhorse.getsporty.domain.Coach_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.UserRole_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Contact_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.Coach_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.User_Roo_Json"/>
+<aspect name="com.darkhorse.getsporty.web.controller.UserController_Roo_Controller_Json"/>
+<aspect name="com.darkhorse.getsporty.svc.UserSvcImpl_Roo_Service"/>
+<aspect name="com.darkhorse.getsporty.web.controller.UserRoleController_Roo_Controller"/>
+<aspect name="com.darkhorse.getsporty.domain.User_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Academy_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.svc.UserSvc_Roo_Service"/>
+<aspect name="com.darkhorse.getsporty.domain.User_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.web.controller.UserController_Roo_Controller"/>
+<aspect name="com.darkhorse.getsporty.domain.Contact_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Academy_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.Player_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.domain.Image_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.svc.UserRoleSvcImpl_Roo_Service"/>
+<aspect name="com.darkhorse.getsporty.web.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.darkhorse.getsporty.domain.Coach_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Player_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Player_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.web.controller.UserRoleController_Roo_Controller_Json"/>
+<aspect name="com.darkhorse.getsporty.domain.CommonFields_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.domain.Image_Roo_JavaBean"/>
+<aspect name="com.darkhorse.getsporty.dao.UserDao_Roo_Mongo_Repository"/>
+<aspect name="com.darkhorse.getsporty.svc.UserRoleSvc_Roo_Service"/>
+<aspect name="com.darkhorse.getsporty.domain.Academy_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.CommonFields_Roo_Mongo_Entity"/>
+<aspect name="com.darkhorse.getsporty.domain.UserRole_Roo_ToString"/>
+<aspect name="com.darkhorse.getsporty.dao.UserRoleDao_Roo_Mongo_Repository"/>
+</aspects>
+</aspectj>
+
