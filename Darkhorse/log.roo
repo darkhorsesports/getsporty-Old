@@ -45,3 +45,4 @@ entity mongo --class ~.domain.Image
 entity mongo --class ~.domain.Player
 entity mongo --class ~.domain.Coach
 entity mongo --class ~.domain.Academy
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-11-03 11:20:21
