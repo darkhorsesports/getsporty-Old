@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_Player" items="${players}" z="EOqEDh4dTZWxv7Itzu0wpQ4BEpc=">
+        <table:table data="${players}" id="l_com_darkhorse_getsporty_domain_Player" path="/players" z="lEO6z7lMUKuKCtsBoCi2P83n8PM=">
+            <table:column id="c_com_darkhorse_getsporty_domain_Player_user" property="user" z="+2x5uhUIdTX/z9ze3aw7CcTKK7I="/>
+            <table:column date="true" dateTimePattern="${player_dob_date_format}" id="c_com_darkhorse_getsporty_domain_Player_DOB" property="DOB" z="JNqf91Ex5jSJ9046SUr8kmfuL0Y="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Player_profileLinks" property="profileLinks" z="oe/+e8mmjtUy41DQxCAm5zSDoeQ="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Player_typeOfIntrest" property="typeOfIntrest" z="66u41Zhm3msHy+ZuvTA+ENMVek4="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Player_qulification" property="qulification" z="22K9tabaLMSm+6B+tb5mHf9A95c="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Player_careerHeighlights" property="careerHeighlights" z="roaOto0ZnZ9+wrFiR362wMor1Kg="/>
+        </table:table>
+    </page:list>
+</div>

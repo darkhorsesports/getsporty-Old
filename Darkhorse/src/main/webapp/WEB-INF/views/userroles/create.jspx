@@ -4,7 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_darkhorse_getsporty_domain_UserRole" modelAttribute="userRole" path="/userroles" render="${empty dependencies}" z="SLMy2q7CkgzoeoOwWQ43A6QNV/k=">
         <field:input field="code" id="c_com_darkhorse_getsporty_domain_UserRole_code" required="true" z="VB9i/0fgiz8KG2RhHIxinZVzFNU="/>
-        <field:input field="description" id="c_com_darkhorse_getsporty_domain_UserRole_description" required="true" z="GX/uIyDdrgs5MX0zveFrRt4G80M="/>
+        <field:input field="description" id="c_com_darkhorse_getsporty_domain_UserRole_description" z="WKi7jtAzecnAgVNjkFx6e2NNZ5M="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_darkhorse_getsporty_domain_UserRole" render="${not empty dependencies}" z="5zmxWRbINinXm+P6rwXBSAHWDm0="/>
 </div>

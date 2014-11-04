@@ -16,7 +16,6 @@ public class UserRole {
     @NotNull
     private String code;
 
-    @NotNull
     private String description;
 
 }

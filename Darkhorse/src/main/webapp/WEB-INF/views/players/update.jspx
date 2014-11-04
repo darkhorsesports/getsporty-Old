@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_darkhorse_getsporty_domain_Player" modelAttribute="player" path="/players" versionField="none" z="FTTO57LzbW+fAfr1iKnd5L2fYz4=">
+        <field:input field="user" id="c_com_darkhorse_getsporty_domain_Player_user" z="fGQu5wR8xFtsjXK6vR26RErD9Gw="/>
+        <field:datetime dateTimePattern="${player_dob_date_format}" field="DOB" id="c_com_darkhorse_getsporty_domain_Player_DOB" z="6JQBzbDctJV3+qldWAuNEbae3Q8="/>
+        <field:input field="profileLinks" id="c_com_darkhorse_getsporty_domain_Player_profileLinks" z="k5lkZYrGwSD43YrxR6TgnFcg5jo="/>
+        <field:input field="typeOfIntrest" id="c_com_darkhorse_getsporty_domain_Player_typeOfIntrest" z="54jxq3cpKBhiQSQIc+1bAnU6gI8="/>
+        <field:input field="qulification" id="c_com_darkhorse_getsporty_domain_Player_qulification" z="62hLK6Egpdadebc4c3aBNdoog5g="/>
+        <field:input field="careerHeighlights" id="c_com_darkhorse_getsporty_domain_Player_careerHeighlights" z="fOXRY9JhxpuUUrSED5/CUsDCDf0="/>
+        <field:input field="hobbiesAndIntrest" id="c_com_darkhorse_getsporty_domain_Player_hobbiesAndIntrest" z="/u1Jh1yrPvEguD080gXnbUD6f3o="/>
+        <field:input field="playerLevel" id="c_com_darkhorse_getsporty_domain_Player_playerLevel" z="6FyVeRoC8iB0UO02a7P/RNpc7kY="/>
+    </form:update>
+</div>

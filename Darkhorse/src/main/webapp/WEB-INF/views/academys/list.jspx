@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_Academy" items="${academys}" z="9iopuwa01/niGOTNmteIJ87G21c=">
+        <table:table data="${academys}" id="l_com_darkhorse_getsporty_domain_Academy" path="/academys" z="cBVempQN8jDXrtEp+KBydQf5aNI=">
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_user" property="user" z="u68ijAUeXxXx3ylEd/2W76LFGfA="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_facilityAvailable" property="facilityAvailable" z="hTeBDYl+8yCkoDhLs17AUBsCSMo="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_faculityAvailable" property="faculityAvailable" z="dv6/3vZdPhby9+y5v81S1bWPEQA="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_timeSlotAvailable" property="timeSlotAvailable" z="T/I4j41IQa/N5EAAcscgjrUzqWk="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_sourceAvailable" property="sourceAvailable" z="BDn0uMSWKjANqvanPd+qVdQeDWo="/>
+        </table:table>
+    </page:list>
+</div>

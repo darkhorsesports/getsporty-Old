@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_darkhorse_getsporty_domain_Academy" object="${academy}" path="/academys" z="/WK+ub1krnu2oLodtE8tAFCBMCQ=">
+        <field:display field="user" id="s_com_darkhorse_getsporty_domain_Academy_user" object="${academy}" z="kXyU3sBor4ozyZ5VekdzJHQVt+w="/>
+        <field:display field="facilityAvailable" id="s_com_darkhorse_getsporty_domain_Academy_facilityAvailable" object="${academy}" z="fbCVT+vNu9Mlyj3YbxdByRzGnu4="/>
+        <field:display field="faculityAvailable" id="s_com_darkhorse_getsporty_domain_Academy_faculityAvailable" object="${academy}" z="EDdcCLshbfdPngbIYFOU8X7nBz4="/>
+        <field:display field="timeSlotAvailable" id="s_com_darkhorse_getsporty_domain_Academy_timeSlotAvailable" object="${academy}" z="KfLqiJMWVmjgvcLR0iuhj/SccKw="/>
+        <field:display field="sourceAvailable" id="s_com_darkhorse_getsporty_domain_Academy_sourceAvailable" object="${academy}" z="afYdjh231mYj2y2Z5poj8qZpHy0="/>
+    </page:show>
+</div>

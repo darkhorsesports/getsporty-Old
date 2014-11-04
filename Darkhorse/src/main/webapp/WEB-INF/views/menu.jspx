@@ -14,5 +14,17 @@
         <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
             <menu:item id="i_controller__firstindex_id" messageCode="global_generic" url="/first/index" z="7SYfNZX0lHMtBCngfMebxwm0ZZ8="/>
         </menu:category>
+        <menu:category id="c_academy" z="F7BMiSJDcZgWglntL4x9DTcuqc0=">
+            <menu:item id="i_academy_new" messageCode="global_menu_new" url="/academys?form" z="6yV629khpuJLHQeMPCfXMC2xfMM="/>
+            <menu:item id="i_academy_list" messageCode="global_menu_list" url="/academys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ur/8ndO1fupQ9xzCi/6OatoWtxc="/>
+        </menu:category>
+        <menu:category id="c_coach" z="x0fnSJI7NkNqdD4wCEEa+i56/CI=">
+            <menu:item id="i_coach_new" messageCode="global_menu_new" url="/coaches?form" z="Xqhjm95oLN21oRBAI3DzTPttkFI="/>
+            <menu:item id="i_coach_list" messageCode="global_menu_list" url="/coaches?page=1&amp;size=${empty param.size ? 10 : param.size}" z="arRLhecUB2i5qMkN4vzkhFur7vA="/>
+        </menu:category>
+        <menu:category id="c_player" z="cK8M0OPX/OW66GiF/SNgS8vWpjs=">
+            <menu:item id="i_player_new" messageCode="global_menu_new" url="/players?form" z="xCwCGj+PbS/WEOyltkUd6nZ4y4g="/>
+            <menu:item id="i_player_list" messageCode="global_menu_list" url="/players?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZCszNjmNvFu/+xYfzxw5lZP3Y2o="/>
+        </menu:category>
     </menu:menu>
 </div>

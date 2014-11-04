@@ -4,6 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_darkhorse_getsporty_domain_UserRole" modelAttribute="userRole" path="/userroles" versionField="none" z="a/nfr8D/KySQSKcxhBqA6PZf2+4=">
         <field:input field="code" id="c_com_darkhorse_getsporty_domain_UserRole_code" required="true" z="VB9i/0fgiz8KG2RhHIxinZVzFNU="/>
-        <field:input field="description" id="c_com_darkhorse_getsporty_domain_UserRole_description" required="true" z="GX/uIyDdrgs5MX0zveFrRt4G80M="/>
+        <field:input field="description" id="c_com_darkhorse_getsporty_domain_UserRole_description" z="WKi7jtAzecnAgVNjkFx6e2NNZ5M="/>
     </form:update>
 </div>

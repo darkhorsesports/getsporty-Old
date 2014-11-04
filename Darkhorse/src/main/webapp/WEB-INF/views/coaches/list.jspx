@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_Coach" items="${coaches}" z="fL0JqyrLojisJNyVcnu/ZresM8g=">
+        <table:table data="${coaches}" id="l_com_darkhorse_getsporty_domain_Coach" path="/coaches" z="S0nSTRVL2Tsdu+ZjF+44JnNP8jE=">
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_user" property="user" z="qIcGhZFnlHfVCxvcGsVZ78kcej0="/>
+            <table:column date="true" dateTimePattern="${coach_dob_date_format}" id="c_com_darkhorse_getsporty_domain_Coach_DOB" property="DOB" z="wa+J2p95va7H6xRtGgWIM8ce9SU="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_playerLevel" property="playerLevel" z="NUO3PUoq0D5pu2aZT1/J77QQLw4="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_workingArea" property="workingArea" z="OucRvw010yJBstR3i0do1yImkKc="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_darkhorse_getsporty_domain_Coach" object="${coach}" path="/coaches" z="3iwmwuoiEpgT8Q7S9tNTXrRO22w=">
+        <field:display field="user" id="s_com_darkhorse_getsporty_domain_Coach_user" object="${coach}" z="fqC7mXzW5qyO4HPVCEw26vnRaDo="/>
+        <field:display date="true" dateTimePattern="${coach_dob_date_format}" field="DOB" id="s_com_darkhorse_getsporty_domain_Coach_DOB" object="${coach}" z="nJcPNQRmPRszP2cu4HhprgjprMY="/>
+        <field:display field="playerLevel" id="s_com_darkhorse_getsporty_domain_Coach_playerLevel" object="${coach}" z="THKKt+jBoeCzWnklEkPxCKLQVEM="/>
+        <field:display field="workingArea" id="s_com_darkhorse_getsporty_domain_Coach_workingArea" object="${coach}" z="koxQSQ/GhwXPUMbfDZl+TdMekAE="/>
+    </page:show>
+</div>

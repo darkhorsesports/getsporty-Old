@@ -17,3 +17,4 @@ kartmagic-web/src/main/webapp/pimg/*
 .metadata/.*
 .metadata/version.ini
 RemoteSystemsTempFiles/.project
+/log.roo

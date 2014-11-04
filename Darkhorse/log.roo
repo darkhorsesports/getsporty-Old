@@ -47,3 +47,14 @@ entity mongo --class ~.domain.Coach
 entity mongo --class ~.domain.Academy
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-11-03 11:20:21
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-11-04 13:02:24
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-11-04 15:10:38
+repository mongo --interface ~.dao.academy.AcademyDao --entity ~.domain.Academy
+service --interface ~.svc.academy.AcademySvc --entity ~.domain.Academy
+repository mongo --interface ~.dao.player.PlayerDao --entity ~.domain.Player
+service --interface ~.svc.player.PlayerSvc --entity ~.domain.Player
+repository mongo --interface ~.dao.coach.CoachDao --entity ~.domain.Coach
+service --interface ~.svc.player.CoachSvc --entity ~.domain.Coach
+service --interface ~.svc.coach.CoachSvc --entity ~.domain.Coach
+web mvc scaffold --backingType ~.domain.Academy --class ~.web.controller.AcademyController
+web mvc scaffold --backingType ~.domain.Coach --class ~.web.controller.CoachController
+web mvc scaffold --backingType ~.domain.Player --class ~.web.controller.PlayerController

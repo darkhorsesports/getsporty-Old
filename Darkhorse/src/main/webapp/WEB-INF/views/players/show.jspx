@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_darkhorse_getsporty_domain_Player" object="${player}" path="/players" z="JJPVN5Ff/yvrLJU1zDx0GJ5vPkI=">
+        <field:display field="user" id="s_com_darkhorse_getsporty_domain_Player_user" object="${player}" z="Fw+hE2NlJbSggRL497CAVKwQN34="/>
+        <field:display date="true" dateTimePattern="${player_dob_date_format}" field="DOB" id="s_com_darkhorse_getsporty_domain_Player_DOB" object="${player}" z="cncGkZ3yZhvEWRhS6DcmBSQo4bs="/>
+        <field:display field="profileLinks" id="s_com_darkhorse_getsporty_domain_Player_profileLinks" object="${player}" z="CAw5Mu55KbXnb+20VaF3IX2k2Fw="/>
+        <field:display field="typeOfIntrest" id="s_com_darkhorse_getsporty_domain_Player_typeOfIntrest" object="${player}" z="Q/ByKjRp2pmKeOQ4OMuAHF06/JU="/>
+        <field:display field="qulification" id="s_com_darkhorse_getsporty_domain_Player_qulification" object="${player}" z="DDvlZY83Cj8vFy79X2/bIZn3uP0="/>
+        <field:display field="careerHeighlights" id="s_com_darkhorse_getsporty_domain_Player_careerHeighlights" object="${player}" z="CZWYd8iTE3a9ePI3/KKciqdhcP4="/>
+        <field:display field="hobbiesAndIntrest" id="s_com_darkhorse_getsporty_domain_Player_hobbiesAndIntrest" object="${player}" z="0r0NcFgog5275iAeqDLLUVC7lLc="/>
+        <field:display field="playerLevel" id="s_com_darkhorse_getsporty_domain_Player_playerLevel" object="${player}" z="grOqOCsQXUHvxW5iKsdWRysXB34="/>
+    </page:show>
+</div>
