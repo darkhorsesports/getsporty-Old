@@ -10,12 +10,12 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJavaBean
 @RooToString
 @RooMongoEntity
-public class Academy {
+public class Academy extends CommonFields{
 	
     @DBRef
     private User user;
 
-	private List<String> facilityAvailable;
+    private List<String> facilityAvailable;
 	
 	private List<String> faculityAvailable;
 	

@@ -1,0 +1,27 @@
+input {
+	height:30px;
+	width:200px;
+	margin-top: 10px;
+}
+
+textarea {
+	width:200px;
+	margin-top: 10px;
+}
+
+label {
+	margin-top: 20px;
+}
+
+select {
+	height:30px;
+	width:200px;
+	margin-top: 10px;
+}
+
+.datepicker {
+	height:30px;
+	width:200px;
+	margin-top: 10px;
+}
+

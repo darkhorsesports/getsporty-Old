@@ -3,6 +3,7 @@
 
 package com.darkhorse.getsporty.domain;
 
+import com.darkhorse.getsporty.domain.Academy;
 import com.darkhorse.getsporty.domain.Coach;
 import com.darkhorse.getsporty.domain.User;
 import java.util.Date;
@@ -40,6 +41,14 @@ privileged aspect Coach_Roo_JavaBean {
     
     public void Coach.setWorkingArea(List<String> workingArea) {
         this.workingArea = workingArea;
+    }
+    
+    public Academy Coach.getAssosiatedWithAcademy() {
+        return this.assosiatedWithAcademy;
+    }
+    
+    public void Coach.setAssosiatedWithAcademy(Academy assosiatedWithAcademy) {
+        this.assosiatedWithAcademy = assosiatedWithAcademy;
     }
     
 }

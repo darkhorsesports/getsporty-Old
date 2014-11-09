@@ -4,23 +4,10 @@
 package com.darkhorse.getsporty.domain;
 
 import com.darkhorse.getsporty.domain.Academy;
-import java.math.BigInteger;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Persistent;
 
 privileged aspect Academy_Roo_Mongo_Entity {
     
     declare @type: Academy: @Persistent;
-    
-    @Id
-    private BigInteger Academy.id;
-    
-    public BigInteger Academy.getId() {
-        return this.id;
-    }
-    
-    public void Academy.setId(BigInteger id) {
-        this.id = id;
-    }
     
 }

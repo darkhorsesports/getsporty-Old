@@ -4,12 +4,18 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_darkhorse_getsporty_domain_Player" object="${player}" path="/players" z="JJPVN5Ff/yvrLJU1zDx0GJ5vPkI=">
         <field:display field="user" id="s_com_darkhorse_getsporty_domain_Player_user" object="${player}" z="Fw+hE2NlJbSggRL497CAVKwQN34="/>
-        <field:display date="true" dateTimePattern="${player_dob_date_format}" field="DOB" id="s_com_darkhorse_getsporty_domain_Player_DOB" object="${player}" z="cncGkZ3yZhvEWRhS6DcmBSQo4bs="/>
         <field:display field="profileLinks" id="s_com_darkhorse_getsporty_domain_Player_profileLinks" object="${player}" z="CAw5Mu55KbXnb+20VaF3IX2k2Fw="/>
         <field:display field="typeOfIntrest" id="s_com_darkhorse_getsporty_domain_Player_typeOfIntrest" object="${player}" z="Q/ByKjRp2pmKeOQ4OMuAHF06/JU="/>
         <field:display field="qulification" id="s_com_darkhorse_getsporty_domain_Player_qulification" object="${player}" z="DDvlZY83Cj8vFy79X2/bIZn3uP0="/>
         <field:display field="careerHeighlights" id="s_com_darkhorse_getsporty_domain_Player_careerHeighlights" object="${player}" z="CZWYd8iTE3a9ePI3/KKciqdhcP4="/>
         <field:display field="hobbiesAndIntrest" id="s_com_darkhorse_getsporty_domain_Player_hobbiesAndIntrest" object="${player}" z="0r0NcFgog5275iAeqDLLUVC7lLc="/>
         <field:display field="playerLevel" id="s_com_darkhorse_getsporty_domain_Player_playerLevel" object="${player}" z="grOqOCsQXUHvxW5iKsdWRysXB34="/>
+        <field:display field="about" id="s_com_darkhorse_getsporty_domain_Player_about" object="${player}" z="6rXoWSomaj7AKjXCMHAkl52EByk="/>
+        <field:display field="contact" id="s_com_darkhorse_getsporty_domain_Player_contact" object="${player}" z="JRQTq9GPOL8EVGjuxYiw+Pml+VY="/>
+        <field:display field="profileImage" id="s_com_darkhorse_getsporty_domain_Player_profileImage" object="${player}" z="3Qji8EoDv302s2ukWAsRUU2KSjg="/>
+        <field:display field="gallery" id="s_com_darkhorse_getsporty_domain_Player_gallery" object="${player}" z="PG0O1l0B3FF//pxx2JzFgyO3fCE="/>
+        <field:display field="visibility" id="s_com_darkhorse_getsporty_domain_Player_visibility" object="${player}" z="6RJq3AXQBuqzGJ1jCQ5JFwD7Ejc="/>
+        <field:display field="experience" id="s_com_darkhorse_getsporty_domain_Player_experience" object="${player}" z="EHpBISuU9NQDNUFWxCdfOuSovE4="/>
+        <field:display date="true" dateTimePattern="${player_dob_date_format}" field="DOB" id="s_com_darkhorse_getsporty_domain_Player_DOB" object="${player}" z="cncGkZ3yZhvEWRhS6DcmBSQo4bs="/>
     </page:show>
 </div>

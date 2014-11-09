@@ -4,9 +4,16 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_darkhorse_getsporty_domain_Academy" object="${academy}" path="/academys" z="/WK+ub1krnu2oLodtE8tAFCBMCQ=">
         <field:display field="user" id="s_com_darkhorse_getsporty_domain_Academy_user" object="${academy}" z="kXyU3sBor4ozyZ5VekdzJHQVt+w="/>
-        <field:display field="facilityAvailable" id="s_com_darkhorse_getsporty_domain_Academy_facilityAvailable" object="${academy}" z="fbCVT+vNu9Mlyj3YbxdByRzGnu4="/>
         <field:display field="faculityAvailable" id="s_com_darkhorse_getsporty_domain_Academy_faculityAvailable" object="${academy}" z="EDdcCLshbfdPngbIYFOU8X7nBz4="/>
         <field:display field="timeSlotAvailable" id="s_com_darkhorse_getsporty_domain_Academy_timeSlotAvailable" object="${academy}" z="KfLqiJMWVmjgvcLR0iuhj/SccKw="/>
         <field:display field="sourceAvailable" id="s_com_darkhorse_getsporty_domain_Academy_sourceAvailable" object="${academy}" z="afYdjh231mYj2y2Z5poj8qZpHy0="/>
+        <field:display field="about" id="s_com_darkhorse_getsporty_domain_Academy_about" object="${academy}" z="APdaVLs1znYlIq8QLb9CJMCKn2A="/>
+        <field:display field="contact" id="s_com_darkhorse_getsporty_domain_Academy_contact" object="${academy}" z="dPWV3gCn3fWZF32zncLVIPCEUc0="/>
+        <field:display field="profileImage" id="s_com_darkhorse_getsporty_domain_Academy_profileImage" object="${academy}" z="36PFdFnwC11RDsaxeFeOUfUXdJk="/>
+        <field:display field="gallery" id="s_com_darkhorse_getsporty_domain_Academy_gallery" object="${academy}" z="BzL/6F20H3op+tJSFkGcRHNodYs="/>
+        <field:display field="visibility" id="s_com_darkhorse_getsporty_domain_Academy_visibility" object="${academy}" z="+/QeWGRzwDWMPXzp2GvQdmr7mQ0="/>
+        <field:display field="profileLinks" id="s_com_darkhorse_getsporty_domain_Academy_profileLinks" object="${academy}" z="dPq2A7+mNlh3U7idBoSjAxjIrlY="/>
+        <field:display field="experience" id="s_com_darkhorse_getsporty_domain_Academy_experience" object="${academy}" z="B1cP9u5URW/PhFwVSg5zTUo59L8="/>
+        <field:display field="facilityAvailable" id="s_com_darkhorse_getsporty_domain_Academy_facilityAvailable" object="${academy}" z="fbCVT+vNu9Mlyj3YbxdByRzGnu4="/>
     </page:show>
 </div>

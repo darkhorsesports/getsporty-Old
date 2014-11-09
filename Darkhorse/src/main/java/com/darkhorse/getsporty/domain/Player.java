@@ -12,9 +12,9 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJavaBean
 @RooToString
 @RooMongoEntity
-public class Player {
+public class Player extends CommonFields {
 	
-	private enum Type{
+	private enum PlayerLevel {
 		
 		Bigner,Intermediate,Professionl
 	}
@@ -23,9 +23,7 @@ public class Player {
     @DBRef
     private User user;
 
-	private Date DOB;
-	
-	private List<String> profileLinks;
+    private Date DOB;
 	
 	private List<String> typeOfIntrest;
 	
@@ -35,7 +33,7 @@ public class Player {
 	
 	private List<String> hobbiesAndIntrest;
 	
-	private Type playerLevel;
+	private PlayerLevel playerLevel;
 
 	
 }

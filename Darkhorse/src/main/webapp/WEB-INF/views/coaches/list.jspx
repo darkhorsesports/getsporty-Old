@@ -4,10 +4,12 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_com_darkhorse_getsporty_domain_Coach" items="${coaches}" z="fL0JqyrLojisJNyVcnu/ZresM8g=">
         <table:table data="${coaches}" id="l_com_darkhorse_getsporty_domain_Coach" path="/coaches" z="S0nSTRVL2Tsdu+ZjF+44JnNP8jE=">
-            <table:column id="c_com_darkhorse_getsporty_domain_Coach_user" property="user" z="qIcGhZFnlHfVCxvcGsVZ78kcej0="/>
-            <table:column date="true" dateTimePattern="${coach_dob_date_format}" id="c_com_darkhorse_getsporty_domain_Coach_DOB" property="DOB" z="wa+J2p95va7H6xRtGgWIM8ce9SU="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Coach_playerLevel" property="playerLevel" z="NUO3PUoq0D5pu2aZT1/J77QQLw4="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Coach_workingArea" property="workingArea" z="OucRvw010yJBstR3i0do1yImkKc="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_about" property="about" z="0IG6pWnIMmX6QZ1KvpWhb/gxXsI="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_contact" property="contact" z="y3VZCPyJQS+9NeG4FM66wJWuHyU="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_profileImage" property="profileImage" z="GWO71BkX9P0Pmf072FPo3hqWUfI="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_gallery" property="gallery" z="qNCIDCEYvvI+3S0vH/6+XpdU7YI="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_visibility" property="visibility" z="1MEiK3fDq5yZuPjxZmw9G71PbAM="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Coach_profileLinks" property="profileLinks" z="q8hLcuzQ05nhYKA8C4ZBoHK3R1M="/>
         </table:table>
     </page:list>
 </div>

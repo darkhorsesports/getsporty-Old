@@ -7,6 +7,15 @@
         <field:datetime dateTimePattern="${coach_dob_date_format}" field="DOB" id="c_com_darkhorse_getsporty_domain_Coach_DOB" z="Rb15UtX2l/8L1XASRjMYyx3ntaI="/>
         <field:input field="playerLevel" id="c_com_darkhorse_getsporty_domain_Coach_playerLevel" z="hsXi97TIsVtwU779BLsuvI7XOdA="/>
         <field:input field="workingArea" id="c_com_darkhorse_getsporty_domain_Coach_workingArea" z="Tzj8DevCub4sYNlsMN4g9wFlnlE="/>
+        <field:input field="about" id="c_com_darkhorse_getsporty_domain_Coach_about" z="uBiUpFWHA8JNJGw0HTpVgE8UY+U="/>
+        <field:input field="contact" id="c_com_darkhorse_getsporty_domain_Coach_contact" z="jGR19jHdkSrk8PeW/w/cDm7lJ1g="/>
+        <field:input field="profileImage" id="c_com_darkhorse_getsporty_domain_Coach_profileImage" z="TDob882CrNMPFBgdSGoGJDC3mXA="/>
+        <field:input field="gallery" id="c_com_darkhorse_getsporty_domain_Coach_gallery" z="U2OmbEUaukKsM9jWCU3pDNQWKt0="/>
+        <field:input field="visibility" id="c_com_darkhorse_getsporty_domain_Coach_visibility" z="srkGG4ov6/2Dgjw0thTpE4A0c5Q="/>
+        <field:input field="profileLinks" id="c_com_darkhorse_getsporty_domain_Coach_profileLinks" z="BXDqnInGYjKyB4b6ADSNMnUSuQE="/>
+        <field:input field="experience" id="c_com_darkhorse_getsporty_domain_Coach_experience" z="VV/V0Cw/WpCyV9RxWHJyxjts3b0="/>
+        <field:input field="assosiatedWithAcademy" id="c_com_darkhorse_getsporty_domain_Coach_assosiatedWithAcademy" z="mUvSSZLzojWZkXqVF8XPJcdMgMg="/>
+        <field:input field="id" id="c_com_darkhorse_getsporty_domain_Coach_id" required="true" validationMessageCode="field_invalid_integer" z="SSW/qWl8DkwQksqy3XKtRqCRtqg="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_darkhorse_getsporty_domain_Coach" render="${not empty dependencies}" z="0hlIomTvKRMRqI+9qvXS7YlS6xQ="/>
 </div>

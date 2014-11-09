@@ -4,13 +4,20 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_darkhorse_getsporty_domain_Player" modelAttribute="player" path="/players" render="${empty dependencies}" z="7aJPyxTAnIAUp9WxeNcdyF01ZJ0=">
         <field:input field="user" id="c_com_darkhorse_getsporty_domain_Player_user" z="fGQu5wR8xFtsjXK6vR26RErD9Gw="/>
-        <field:datetime dateTimePattern="${player_dob_date_format}" field="DOB" id="c_com_darkhorse_getsporty_domain_Player_DOB" z="6JQBzbDctJV3+qldWAuNEbae3Q8="/>
         <field:input field="profileLinks" id="c_com_darkhorse_getsporty_domain_Player_profileLinks" z="k5lkZYrGwSD43YrxR6TgnFcg5jo="/>
         <field:input field="typeOfIntrest" id="c_com_darkhorse_getsporty_domain_Player_typeOfIntrest" z="54jxq3cpKBhiQSQIc+1bAnU6gI8="/>
         <field:input field="qulification" id="c_com_darkhorse_getsporty_domain_Player_qulification" z="62hLK6Egpdadebc4c3aBNdoog5g="/>
         <field:input field="careerHeighlights" id="c_com_darkhorse_getsporty_domain_Player_careerHeighlights" z="fOXRY9JhxpuUUrSED5/CUsDCDf0="/>
         <field:input field="hobbiesAndIntrest" id="c_com_darkhorse_getsporty_domain_Player_hobbiesAndIntrest" z="/u1Jh1yrPvEguD080gXnbUD6f3o="/>
         <field:input field="playerLevel" id="c_com_darkhorse_getsporty_domain_Player_playerLevel" z="6FyVeRoC8iB0UO02a7P/RNpc7kY="/>
+        <field:input field="about" id="c_com_darkhorse_getsporty_domain_Player_about" z="pNd/nd3Kn6pe8dcLwheHYB3XjoQ="/>
+        <field:input field="contact" id="c_com_darkhorse_getsporty_domain_Player_contact" z="sDmQ/29llDW9dfPUp49iccSg+8E="/>
+        <field:input field="profileImage" id="c_com_darkhorse_getsporty_domain_Player_profileImage" z="nVnHb/wBiQh0f/NR4KGLte13MNk="/>
+        <field:input field="gallery" id="c_com_darkhorse_getsporty_domain_Player_gallery" z="WgXe5MS9abAj9J/BcIzkZZJgvkU="/>
+        <field:input field="visibility" id="c_com_darkhorse_getsporty_domain_Player_visibility" z="HqbiNJdK1s8cQmqoAgrKKNv7M3g="/>
+        <field:input field="experience" id="c_com_darkhorse_getsporty_domain_Player_experience" z="G73GMMuWEgK/ArAlTfL5Va/7/Yg="/>
+        <field:datetime dateTimePattern="${player_dob_date_format}" field="DOB" id="c_com_darkhorse_getsporty_domain_Player_DOB" z="6JQBzbDctJV3+qldWAuNEbae3Q8="/>
+        <field:input field="id" id="c_com_darkhorse_getsporty_domain_Player_id" required="true" validationMessageCode="field_invalid_integer" z="RqA2VTtn/nGOyVxPSv2+qJXpNtU="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_darkhorse_getsporty_domain_Player" render="${not empty dependencies}" z="9ORHrgyRnVSo6Ge9PF+PoHBPLsU="/>
 </div>

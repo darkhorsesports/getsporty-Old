@@ -4,11 +4,12 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_com_darkhorse_getsporty_domain_Academy" items="${academys}" z="9iopuwa01/niGOTNmteIJ87G21c=">
         <table:table data="${academys}" id="l_com_darkhorse_getsporty_domain_Academy" path="/academys" z="cBVempQN8jDXrtEp+KBydQf5aNI=">
-            <table:column id="c_com_darkhorse_getsporty_domain_Academy_user" property="user" z="u68ijAUeXxXx3ylEd/2W76LFGfA="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Academy_facilityAvailable" property="facilityAvailable" z="hTeBDYl+8yCkoDhLs17AUBsCSMo="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Academy_faculityAvailable" property="faculityAvailable" z="dv6/3vZdPhby9+y5v81S1bWPEQA="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Academy_timeSlotAvailable" property="timeSlotAvailable" z="T/I4j41IQa/N5EAAcscgjrUzqWk="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Academy_sourceAvailable" property="sourceAvailable" z="BDn0uMSWKjANqvanPd+qVdQeDWo="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_about" property="about" z="ZkETVWTFrErZFfNBXCJTvIpaWLg="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_contact" property="contact" z="rbO7xHMjtYV3rcjlCsX4S4pNDvU="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_profileImage" property="profileImage" z="BLzxY7dtJefYeY5nGp0j8D9uneg="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_gallery" property="gallery" z="SiB6hCKu0xdWcfuecnfU9ocJLgQ="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_visibility" property="visibility" z="2BouOTBd4FxwDqV8n854FICX0gI="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Academy_profileLinks" property="profileLinks" z="rNarF1lLBS89lIhqgkATtlrlqJ4="/>
         </table:table>
     </page:list>
 </div>

@@ -11,9 +11,6 @@
             <menu:item id="i_userrole_new" messageCode="global_menu_new" url="/userroles?form" z="qYpuuJuPupoYjD8LM0ISnxylj4o="/>
             <menu:item id="i_userrole_list" messageCode="global_menu_list" url="/userroles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fTjcT4INZTypLgu+ZHmwzE55ORs="/>
         </menu:category>
-        <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
-            <menu:item id="i_controller__firstindex_id" messageCode="global_generic" url="/first/index" z="7SYfNZX0lHMtBCngfMebxwm0ZZ8="/>
-        </menu:category>
         <menu:category id="c_academy" z="F7BMiSJDcZgWglntL4x9DTcuqc0=">
             <menu:item id="i_academy_new" messageCode="global_menu_new" url="/academys?form" z="6yV629khpuJLHQeMPCfXMC2xfMM="/>
             <menu:item id="i_academy_list" messageCode="global_menu_list" url="/academys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ur/8ndO1fupQ9xzCi/6OatoWtxc="/>

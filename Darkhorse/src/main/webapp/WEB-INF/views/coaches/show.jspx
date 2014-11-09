@@ -7,5 +7,13 @@
         <field:display date="true" dateTimePattern="${coach_dob_date_format}" field="DOB" id="s_com_darkhorse_getsporty_domain_Coach_DOB" object="${coach}" z="nJcPNQRmPRszP2cu4HhprgjprMY="/>
         <field:display field="playerLevel" id="s_com_darkhorse_getsporty_domain_Coach_playerLevel" object="${coach}" z="THKKt+jBoeCzWnklEkPxCKLQVEM="/>
         <field:display field="workingArea" id="s_com_darkhorse_getsporty_domain_Coach_workingArea" object="${coach}" z="koxQSQ/GhwXPUMbfDZl+TdMekAE="/>
+        <field:display field="about" id="s_com_darkhorse_getsporty_domain_Coach_about" object="${coach}" z="korD7k52AEuTjWZv/yR2bBb7c5g="/>
+        <field:display field="contact" id="s_com_darkhorse_getsporty_domain_Coach_contact" object="${coach}" z="IhJTmpV+fccShgdhxDH8AOLmxL4="/>
+        <field:display field="profileImage" id="s_com_darkhorse_getsporty_domain_Coach_profileImage" object="${coach}" z="3SgbuH7OonwCuuTpGQIXbR2iAJ0="/>
+        <field:display field="gallery" id="s_com_darkhorse_getsporty_domain_Coach_gallery" object="${coach}" z="jtsTUWz0aKiu+xXwXBHrfUdTYQg="/>
+        <field:display field="visibility" id="s_com_darkhorse_getsporty_domain_Coach_visibility" object="${coach}" z="F26sE4bsQWbckfJn748mE6cQVzI="/>
+        <field:display field="profileLinks" id="s_com_darkhorse_getsporty_domain_Coach_profileLinks" object="${coach}" z="P2snVJjgaDQtLhI2GcP44Emyjt8="/>
+        <field:display field="experience" id="s_com_darkhorse_getsporty_domain_Coach_experience" object="${coach}" z="6OfR5FmtfmhKQy3+FnGLMyhG3F4="/>
+        <field:display field="assosiatedWithAcademy" id="s_com_darkhorse_getsporty_domain_Coach_assosiatedWithAcademy" object="${coach}" z="JVspJeaNjXYirUlEB0dQrOs000U="/>
     </page:show>
 </div>

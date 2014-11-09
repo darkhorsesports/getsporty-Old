@@ -4,9 +4,16 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_darkhorse_getsporty_domain_Academy" modelAttribute="academy" path="/academys" versionField="none" z="hWFXS/UZLqfBNdhR4Ecm2AzETBs=">
         <field:input field="user" id="c_com_darkhorse_getsporty_domain_Academy_user" z="dS1KwDzhD+RC/E2H8Sln/lmef+A="/>
-        <field:input field="facilityAvailable" id="c_com_darkhorse_getsporty_domain_Academy_facilityAvailable" z="D4cDXXKGPMkVJurYY9BUCfjNfxg="/>
         <field:input field="faculityAvailable" id="c_com_darkhorse_getsporty_domain_Academy_faculityAvailable" z="PGb6ThgG4ZHnB1+WoZdCLbnY5sk="/>
         <field:input field="timeSlotAvailable" id="c_com_darkhorse_getsporty_domain_Academy_timeSlotAvailable" z="OI/sMEdXisP6NJao/2n4zSTm1eU="/>
         <field:input field="sourceAvailable" id="c_com_darkhorse_getsporty_domain_Academy_sourceAvailable" z="dZoVhg/QXX85YlHgkw0xwntGk2g="/>
+        <field:input field="about" id="c_com_darkhorse_getsporty_domain_Academy_about" z="TTtfUjuJr5bAINXcdd16D2hpEAQ="/>
+        <field:input field="contact" id="c_com_darkhorse_getsporty_domain_Academy_contact" z="pqVuwYCzuEVdtMDCIBaWX0bGac4="/>
+        <field:input field="profileImage" id="c_com_darkhorse_getsporty_domain_Academy_profileImage" z="b/UIShCww5KL+F0BZFkyX/8sRtk="/>
+        <field:input field="gallery" id="c_com_darkhorse_getsporty_domain_Academy_gallery" z="ANjzKSPA/IGiuqhwfrwfnSzBD04="/>
+        <field:input field="visibility" id="c_com_darkhorse_getsporty_domain_Academy_visibility" z="4erU8tCrd4VMfiwNZxHmEQRhMJo="/>
+        <field:input field="profileLinks" id="c_com_darkhorse_getsporty_domain_Academy_profileLinks" z="zaRh959nOq5i1qXM7OWLFHWKr4Q="/>
+        <field:input field="experience" id="c_com_darkhorse_getsporty_domain_Academy_experience" z="0JDf20n6gk6v8mAgSuI8tTzlQKg="/>
+        <field:input field="facilityAvailable" id="c_com_darkhorse_getsporty_domain_Academy_facilityAvailable" z="D4cDXXKGPMkVJurYY9BUCfjNfxg="/>
     </form:update>
 </div>

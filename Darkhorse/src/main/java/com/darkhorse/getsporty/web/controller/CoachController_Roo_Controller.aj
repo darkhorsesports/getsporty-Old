@@ -5,6 +5,7 @@ package com.darkhorse.getsporty.web.controller;
 
 import com.darkhorse.getsporty.domain.Coach;
 import com.darkhorse.getsporty.svc.UserSvc;
+import com.darkhorse.getsporty.svc.academy.AcademySvc;
 import com.darkhorse.getsporty.svc.coach.CoachSvc;
 import com.darkhorse.getsporty.web.controller.CoachController;
 import java.io.UnsupportedEncodingException;
@@ -25,6 +26,9 @@ privileged aspect CoachController_Roo_Controller {
     
     @Autowired
     CoachSvc CoachController.coachSvc;
+    
+    @Autowired
+    AcademySvc CoachController.academySvc;
     
     @Autowired
     UserSvc CoachController.userSvc;
@@ -54,7 +58,7 @@ privileged aspect CoachController_Roo_Controller {
     }
     
     @RequestMapping(produces = "text/html")
-    public String CoachController.list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, Model uiModel) {
+    public String CoachController.list(@RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size, @RequestParam(value = "sortFieldName", required = false) String sortFieldName, @RequestParam(value = "sortOrder", required = false) String sortOrder, Model uiModel) {
         if (page != null || size != null) {
             int sizeNo = size == null ? 10 : size.intValue();
             final int firstResult = page == null ? 0 : (page.intValue() - 1) * sizeNo;
@@ -96,6 +100,7 @@ privileged aspect CoachController_Roo_Controller {
     
     void CoachController.populateEditForm(Model uiModel, Coach coach) {
         uiModel.addAttribute("coach", coach);
+        uiModel.addAttribute("academys", academySvc.findAllAcademys());
         uiModel.addAttribute("users", userSvc.findAllUsers());
     }
     

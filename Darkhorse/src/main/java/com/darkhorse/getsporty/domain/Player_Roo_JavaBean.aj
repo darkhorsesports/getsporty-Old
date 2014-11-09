@@ -27,14 +27,6 @@ privileged aspect Player_Roo_JavaBean {
         this.DOB = DOB;
     }
     
-    public List<String> Player.getProfileLinks() {
-        return this.profileLinks;
-    }
-    
-    public void Player.setProfileLinks(List<String> profileLinks) {
-        this.profileLinks = profileLinks;
-    }
-    
     public List<String> Player.getTypeOfIntrest() {
         return this.typeOfIntrest;
     }
@@ -67,11 +59,11 @@ privileged aspect Player_Roo_JavaBean {
         this.hobbiesAndIntrest = hobbiesAndIntrest;
     }
     
-    public Type Player.getPlayerLevel() {
+    public PlayerLevel Player.getPlayerLevel() {
         return this.playerLevel;
     }
     
-    public void Player.setPlayerLevel(Type playerLevel) {
+    public void Player.setPlayerLevel(PlayerLevel playerLevel) {
         this.playerLevel = playerLevel;
     }
     

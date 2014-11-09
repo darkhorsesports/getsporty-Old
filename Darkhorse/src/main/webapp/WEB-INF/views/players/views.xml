@@ -10,6 +10,9 @@
 <definition extends="default" name="players/create">
         <put-attribute name="body" value="/WEB-INF/views/players/create.jspx"/>
     </definition>
+<definition extends="adminTemplate" name="players/createPlayer">
+        <put-attribute name="body" value="/WEB-INF/views/players/createPlayer.jsp"/>
+    </definition>
 <definition extends="default" name="players/update">
         <put-attribute name="body" value="/WEB-INF/views/players/update.jspx"/>
     </definition>

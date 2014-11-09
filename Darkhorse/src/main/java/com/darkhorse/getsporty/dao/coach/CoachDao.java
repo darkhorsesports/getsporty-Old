@@ -4,6 +4,10 @@ import com.darkhorse.getsporty.domain.Coach;
 import java.util.List;
 import org.springframework.roo.addon.layers.repository.mongo.RooMongoRepository;
 
+/**
+ * @author sanjeev
+ *
+ */
 @RooMongoRepository(domainType = Coach.class)
 public interface CoachDao {
 

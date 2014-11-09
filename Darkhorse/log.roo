@@ -58,3 +58,8 @@ service --interface ~.svc.coach.CoachSvc --entity ~.domain.Coach
 web mvc scaffold --backingType ~.domain.Academy --class ~.web.controller.AcademyController
 web mvc scaffold --backingType ~.domain.Coach --class ~.web.controller.CoachController
 web mvc scaffold --backingType ~.domain.Player --class ~.web.controller.PlayerController
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-11-04 16:14:45
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2014-11-07 12:53:12
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-11-07 17:59:15
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-11-08 23:39:38
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-11-08 23:43:39

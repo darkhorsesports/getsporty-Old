@@ -42,7 +42,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Academy, String> ApplicationConversionServiceFactoryBean.getAcademyToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Academy, java.lang.String>() {
             public String convert(Academy academy) {
-                return new StringBuilder().toString();
+                return new StringBuilder().append(academy.getAbout()).append(' ').append(academy.getVisibility()).toString();
             }
         };
     }
@@ -66,7 +66,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Coach, String> ApplicationConversionServiceFactoryBean.getCoachToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Coach, java.lang.String>() {
             public String convert(Coach coach) {
-                return new StringBuilder().append(coach.getDOB()).append(" ").append(coach.getPlayerLevel()).toString();
+                return new StringBuilder().append(coach.getAbout()).append(' ').append(coach.getVisibility()).append(' ').append(coach.getDOB()).append(' ').append(coach.getPlayerLevel()).toString();
             }
         };
     }
@@ -90,7 +90,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Player, String> ApplicationConversionServiceFactoryBean.getPlayerToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Player, java.lang.String>() {
             public String convert(Player player) {
-                return new StringBuilder().append(player.getDOB()).append(" ").append(player.getPlayerLevel()).toString();
+                return new StringBuilder().append(player.getAbout()).append(' ').append(player.getVisibility()).append(' ').append(player.getDOB()).append(' ').append(player.getPlayerLevel()).toString();
             }
         };
     }
@@ -114,7 +114,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<User, String> ApplicationConversionServiceFactoryBean.getUserToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.User, java.lang.String>() {
             public String convert(User user) {
-                return new StringBuilder().append(user.getName()).append(" ").append(user.getEmail()).append(" ").append(user.getPasswd()).append(" ").append(user.getCreated()).toString();
+                return new StringBuilder().append(user.getName()).append(' ').append(user.getEmail()).append(' ').append(user.getPasswd()).append(' ').append(user.getCreated()).toString();
             }
         };
     }
@@ -138,7 +138,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<UserRole, String> ApplicationConversionServiceFactoryBean.getUserRoleToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.UserRole, java.lang.String>() {
             public String convert(UserRole userRole) {
-                return new StringBuilder().append(userRole.getCode()).append(" ").append(userRole.getDescription()).toString();
+                return new StringBuilder().append(userRole.getCode()).append(' ').append(userRole.getDescription()).toString();
             }
         };
     }

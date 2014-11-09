@@ -11,7 +11,7 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJavaBean
 @RooToString
 @RooMongoEntity
-public class Coach {
+public class Coach extends CommonFields {
 	
 	private enum Level{
 		
@@ -25,8 +25,10 @@ public class Coach {
 	
 	private Level playerLevel;
 	
-	
 	private List<String> workingArea;
-
 	
+	@DBRef
+	private Academy assosiatedWithAcademy;
+
+
 }
