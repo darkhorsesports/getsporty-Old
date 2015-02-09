@@ -9,6 +9,12 @@
 <section class="large-12">
 <div class="container">
 <div class="">
+<div class="messsage">
+<div style="margin-left: 250px;"><h4>Create player</h4></div>
+<c:if test="${not empty message}">
+<span class="error"></span>
+</c:if>
+</div>
 	<form:form commandName="player" name="player" id="player" class="form-horizontal">
 	 <form:hidden path="id" />
 	 
@@ -80,7 +86,7 @@
 	 
 	 <div class="col-sm-4">
 	 <label>Hobbies and Intrest</label>
-	 <form:textarea path="profileLinks"/>
+	 <form:textarea path="hobbiesAndIntrest"/>
 	 </div>
 	 
 <%-- 	 <div class="col-sm-5">

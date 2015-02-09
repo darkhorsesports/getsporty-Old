@@ -8,5 +8,6 @@
         <field:display field="isEnabled" id="s_com_darkhorse_getsporty_domain_User_isEnabled" object="${user}" z="ST1uhkoZP7iHPzjaiC6pIcjVkfU="/>
         <field:display field="userRoles" id="s_com_darkhorse_getsporty_domain_User_userRoles" object="${user}" z="h5aeWp5iARBx/wVNP3A/mh5cfdY="/>
         <field:display field="name" id="s_com_darkhorse_getsporty_domain_User_name" object="${user}" z="JwaqGHJJyMYi77lYK0ZzT09K9Ow="/>
+        <field:display field="deviceId" id="s_com_darkhorse_getsporty_domain_User_deviceId" object="${user}" z="aKavcpfr774RJ/hB2P/nfWsVvn0="/>
     </page:show>
 </div>

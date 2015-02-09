@@ -1,7 +1,9 @@
 package com.darkhorse.getsporty.dao;
 
 import com.darkhorse.getsporty.domain.User;
+
 import java.util.List;
+
 import org.springframework.roo.addon.layers.repository.mongo.RooMongoRepository;
 
 /**
@@ -12,4 +14,6 @@ import org.springframework.roo.addon.layers.repository.mongo.RooMongoRepository;
 public interface UserDao {
 
     List<com.darkhorse.getsporty.domain.User> findAll();
+    
+    User findByEmail(String email);
 }

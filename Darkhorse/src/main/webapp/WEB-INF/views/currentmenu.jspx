@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_player" z="cK8M0OPX/OW66GiF/SNgS8vWpjs=">
+            <menu:item id="i_player_new" messageCode="global_menu_new" url="/players/createPlayer" z="xCwCGj+PbS/WEOyltkUd6nZ4y4g="/>
+            <menu:item id="i_player_list" messageCode="global_menu_list" url="/players?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZCszNjmNvFu/+xYfzxw5lZP3Y2o="/>
+        </menu:category>
+        <menu:category id="c_event" z="AURyeKTmOObIARXqfI9DXukJNIE=">
+            <menu:item id="i_event_new" messageCode="global_menu_new" url="/events/new" z="BObcRn250Q23VbXG8kWIXR49efE="/>
+            <menu:item id="i_event_list" messageCode="global_menu_list" url="/events?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MxywFHCy64/coyVU05GEg92ERF4="/>
+        </menu:category>
+        <menu:category id="c_job" z="Spq9e4Ex4B3IMcYI5WfoQsLFC30=">
+            <menu:item id="i_job_new" messageCode="global_menu_new" url="/jobs/new" z="LPLNOdNVR7SU3S6Mm86Cya2uODg="/>
+            <menu:item id="i_job_list" messageCode="global_menu_list" url="/jobs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="40TPkqDKrJpvrpVeIfIWHa+/lZU="/>
+        </menu:category>
+        <menu:category id="c_employee" z="sxLyQbJ/qSw9Reoi1NHvJhkZ/rU=">
+            <menu:item id="i_employee_new" messageCode="global_menu_new" url="/employees?form" z="+S/pgOAdANt9JPGnS20kM8qTu00="/>
+            <menu:item id="i_employee_list" messageCode="global_menu_list" url="/employees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IfTXfF5mBLDCW+DUkfuN3Wgvias="/>
+        </menu:category>
+        
+    </menu:menu>
+</div>

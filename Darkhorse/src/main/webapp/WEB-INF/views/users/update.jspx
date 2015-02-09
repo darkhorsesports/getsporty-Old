@@ -8,5 +8,6 @@
         <field:checkbox field="isEnabled" id="c_com_darkhorse_getsporty_domain_User_isEnabled" z="LtHp8CNg7CyxQ8w+iUvW39BqdNk="/>
         <field:select field="userRoles" id="c_com_darkhorse_getsporty_domain_User_userRoles" itemValue="id" items="${userroles}" multiple="true" path="/userroles" z="mYx5q6iXm+BN/HDqPI95bGa/ztA="/>
         <field:input field="name" id="c_com_darkhorse_getsporty_domain_User_name" z="1bE1gg1Ur8HQhBeLu/fGM7eEs+Y="/>
+        <field:input field="deviceId" id="c_com_darkhorse_getsporty_domain_User_deviceId" z="eKMoNeoLncRJJ48IsATJbbT1Nls="/>
     </form:update>
 </div>

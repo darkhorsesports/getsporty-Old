@@ -6,7 +6,7 @@ package com.darkhorse.getsporty.domain;
 import com.darkhorse.getsporty.domain.User;
 import com.darkhorse.getsporty.domain.UserRole;
 import java.util.Date;
-import java.util.Set;
+import java.util.List;
 
 privileged aspect User_Roo_JavaBean {
     
@@ -50,12 +50,20 @@ privileged aspect User_Roo_JavaBean {
         this.created = created;
     }
     
-    public Set<UserRole> User.getUserRoles() {
+    public List<UserRole> User.getUserRoles() {
         return this.userRoles;
     }
     
-    public void User.setUserRoles(Set<UserRole> userRoles) {
+    public void User.setUserRoles(List<UserRole> userRoles) {
         this.userRoles = userRoles;
+    }
+    
+    public String User.getDeviceId() {
+        return this.deviceId;
+    }
+    
+    public void User.setDeviceId(String deviceId) {
+        this.deviceId = deviceId;
     }
     
 }

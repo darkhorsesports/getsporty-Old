@@ -63,3 +63,35 @@ web mvc scaffold --backingType ~.domain.Player --class ~.web.controller.PlayerCo
 // Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2014-11-07 17:59:15
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-11-08 23:39:38
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-11-08 23:43:39
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-11-09 16:06:07
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-11-09 23:02:15
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-11 12:30:50
+entity mongo --class ~.domain.Event
+repository mongo --interface ~.dao.event.EventDao --entity ~.domain.Event
+service type --interface ~.svc.event.EventSvc --entity ~.domain.Event
+web mvc scaffold --backingType ~.domain.Event --class ~.web.controller.event.EventController
+web mvc scaffold --backingType ~.domain.Event --class ~.web.controller.event.EventController
+web mvc scaffold --backingType ~.domain.Event --class ~.web.controller.event.EventController
+web mvc scaffold --class ~.domain.Event
+web mvc scaffold --backingType ~.domain.Event --class ~.web.controller.EventController
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-12 13:12:31
+exit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-01-12 16:17:20
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-18 22:39:37
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-01-18 23:32:45
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-24 20:59:59
+entity mongo --class ~.domain.Job
+repository mongo --interface ~.dao.job.JobDao --entity ~.domain.Job
+service type --interface ~.svc.job.JobSvc --entity ~.domain.Job
+web mvc scaffold --backingType ~.domain.Job --class ~.web.controller.job.JobController
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-01-24 23:04:28
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-01-28 23:20:43
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-01-29 01:00:38
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2015-02-01 15:54:06
+entity mongo --class ~.domain.Employee
+field string --fieldName name
+repository mongo --interface ~.dao.UserDao --entity ~.domain.Employee
+repository mongo --interface ~.dao.abc.EmployeeDao --entity ~.domain.Employee
+service type --interface ~.svc.abc.EmployeeSvc --entity ~.domain.Employee
+web mvc scaffold --backingType ~.domain.Employee --class ~.web.controller.EmployeeController
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2015-02-01 16:24:45

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_darkhorse_getsporty_domain_Job" modelAttribute="job" path="/jobs" versionField="none" z="qH60QUxjUwsYxgJvYauX/AkkrJQ=">
+        <field:input field="title" id="c_com_darkhorse_getsporty_domain_Job_title" z="fIwp8k0K3zS2URad1v0X6Ngc/Cs="/>
+        <field:input field="description" id="c_com_darkhorse_getsporty_domain_Job_description" z="6Nl94wzOuxzHFw14IJCfXDbj32o="/>
+        <field:input field="location" id="c_com_darkhorse_getsporty_domain_Job_location" z="Mke4QXVQVf/4PNRLozvYlS/n8i0="/>
+        <field:input field="contact" id="c_com_darkhorse_getsporty_domain_Job_contact" z="eBJBu0SAI08rh6zsB6ko/48HGfc="/>
+        <field:input field="jobType" id="c_com_darkhorse_getsporty_domain_Job_jobType" z="FtAgp7J0xByP8VENQNt+zsl85MY="/>
+        <field:checkbox field="enable" id="c_com_darkhorse_getsporty_domain_Job_enable" z="TkX/zC2d9N2tIQbbIh6EcOOeFqo="/>
+        <field:input field="desiredSkills" id="c_com_darkhorse_getsporty_domain_Job_desiredSkills" z="kx+WBGvn7yG/dgpCanmTnuEmh5o="/>
+        <field:input field="modeOfApply" id="c_com_darkhorse_getsporty_domain_Job_modeOfApply" z="dcAvqV7gda14wuOPI1gS5+BmlsE="/>
+        <field:input field="organization" id="c_com_darkhorse_getsporty_domain_Job_organization" z="rCIkkBpHx5CFxdxRdGXiYiZSaHE="/>
+        <field:input field="jobLinks" id="c_com_darkhorse_getsporty_domain_Job_jobLinks" z="bWDGN0qh0EXjsOoSF8pBqc1qybo="/>
+        <field:input field="experience" id="c_com_darkhorse_getsporty_domain_Job_experience" z="8y0uweM/BrFl1qDLnJ1vHxdh4w0="/>
+    </form:update>
+</div>

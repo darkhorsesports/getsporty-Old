@@ -7,7 +7,9 @@
   
   <div style="background-color: #648c1d; width: 1100px; height: 50px;">
   
-  <h2 style="color:white; margin-left: 300px;">A Place For Sports Freek </h2>
+  <!-- <h2 style="color:white; margin-left: 300px;">A Place For Sports Freak </h2> -->
+  
+  <div style="font-size: 30px; color:white; margin: auto; text-align: center !important; ">A Place For Sports Freak</div>
   
   </div>
 </div> 

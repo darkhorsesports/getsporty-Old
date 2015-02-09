@@ -37,6 +37,25 @@
 		    <tiles:insertAttribute name="header" ignore="true" />
 		    <tiles:insertAttribute name="menu" ignore="true" />   
 		    <div id="main">
+		    					<c:if test="${not empty success}">
+						<div class="alert alert-success span8">
+							<button class="close" data-dismiss="alert">x</button>
+							<p>${success}</p>
+						</div>
+					</c:if>
+					<c:if test="${not empty err}">
+						<div class="alert alert-error span8" style="background-color: antiquewhite;">
+							<button class="close" data-dismiss="alert">x</button>
+							<p>${err}</p>
+						</div>
+					</c:if>
+					<c:if test="${not empty info}">
+						<div class="alert alert-info span8">
+							<button class="close" data-dismiss="alert">x</button>
+							<p>${info}</p>
+						</div>
+					</c:if>
+		    
 	    		<tiles:insertAttribute name="body"/> 
 		    	<tiles:insertAttribute name="footer" ignore="true"/>
 		    </div>

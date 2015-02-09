@@ -16,4 +16,8 @@
 <definition extends="default" name="players/update">
         <put-attribute name="body" value="/WEB-INF/views/players/update.jspx"/>
     </definition>
+<definition extends="adminTemplate" name="players/listPlayers">
+        <put-attribute name="body" value="/WEB-INF/views/players/listPlayers.jsp"/>
+    </definition>
+    
 </tiles-definitions>

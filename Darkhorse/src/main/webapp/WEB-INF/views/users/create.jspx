@@ -9,6 +9,7 @@
         <field:select field="userRoles" id="c_com_darkhorse_getsporty_domain_User_userRoles" itemValue="id" items="${userroles}" multiple="true" path="/userroles" z="mYx5q6iXm+BN/HDqPI95bGa/ztA="/>
         <field:input field="name" id="c_com_darkhorse_getsporty_domain_User_name" z="1bE1gg1Ur8HQhBeLu/fGM7eEs+Y="/>
         <field:input field="id" id="c_com_darkhorse_getsporty_domain_User_id" required="true" validationMessageCode="field_invalid_integer" z="8KeDyMnYkOgJLMSIXNKGes13Tyg="/>
+        <field:input field="deviceId" id="c_com_darkhorse_getsporty_domain_User_deviceId" z="eKMoNeoLncRJJ48IsATJbbT1Nls="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_darkhorse_getsporty_domain_User" render="${not empty dependencies}" z="y/46F2l9pMxcz4U9EhVur0dulTQ="/>
 </div>

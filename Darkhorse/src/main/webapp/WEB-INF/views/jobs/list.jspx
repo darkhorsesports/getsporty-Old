@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_Job" items="${jobs}" z="BPYsyL72x/yjCSmmdmdWSCCjeEU=">
+        <table:table data="${jobs}" id="l_com_darkhorse_getsporty_domain_Job" path="/jobs" z="L9Rapf1eOY27EOwL34O8wmsSDKs=">
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_title" property="title" z="cS+tPasAw1cI2HInhykfllUMad4="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_description" property="description" z="BPOSKTFFtfH/8V9cONmFkQaSQwU="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_location" property="location" z="AaSKYkBB2GAsxcrl49pX8tgMBTA="/>
+            <!-- <table:column id="c_com_darkhorse_getsporty_domain_Job_contact" property="contact" z="bESTjaP8dqu6qtv4DwLeJryKwhk="/> -->
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_desiredSkills" property="desiredSkills" z="oUwo8LiZMfuCZtHX4pWYaRSy5EE="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_organization" property="organization" z="iYoOB9vEIcBDEU+1W7tYHY+r1po="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Job_experience" property="experience" z="YAKGZcuMvMIm4fB9H6febensXpI="/>
+        </table:table>
+    </page:list>
+</div>

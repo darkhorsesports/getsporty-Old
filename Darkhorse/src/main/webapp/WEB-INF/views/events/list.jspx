@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_darkhorse_getsporty_domain_Event" items="${events}" z="ZuxRPYqmzhkovp/dKgQk6imalRI=">
+        <table:table data="${events}" id="l_com_darkhorse_getsporty_domain_Event" path="/events" z="2v9T3pJWw9UidczQAqldzsU+Tts=">
+            <table:column id="c_com_darkhorse_getsporty_domain_Event_title" property="title" z="y4dGDK3cFQBEgpoJmwtkZOmn8js="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Event_description" property="description" z="1KsQxHMNFKU+J605cX3auMcTGpg="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Event_location" property="location" z="AUrZQHwq4sOJSWopLH67dewCGrc="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Event_organizer" property="organizer" z="JblDpgW7H18Lg+loF4Q+CMi56vQ="/>
+            <table:column date="true" dateTimePattern="${event_created_date_format}" id="c_com_darkhorse_getsporty_domain_Event_created" property="created" z="PVvTOJ8ZomHgIh2WDWpJSiopAN4="/>
+            <table:column id="c_com_darkhorse_getsporty_domain_Event_contact" property="contact" z="m1ZTGxh+6DO7JAk53lS5+F/+mWM="/>
+        </table:table>
+    </page:list>
+</div>

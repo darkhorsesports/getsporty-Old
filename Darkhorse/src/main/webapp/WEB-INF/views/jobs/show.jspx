@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_darkhorse_getsporty_domain_Job" object="${job}" path="/jobs" z="rR5921OitMeujn0lTr0oqY6GKRM=">
+        <field:display field="title" id="s_com_darkhorse_getsporty_domain_Job_title" object="${job}" z="6WYSFrYItsticTtv3wgMfExNP1o="/>
+        <field:display field="description" id="s_com_darkhorse_getsporty_domain_Job_description" object="${job}" z="EpON1HpGq9iMCYBv/Ygwwjz7/zA="/>
+        <field:display field="location" id="s_com_darkhorse_getsporty_domain_Job_location" object="${job}" z="rkQ1Q5HwVSu+2RHCr+qCann+eDg="/>
+        <field:display field="contact" id="s_com_darkhorse_getsporty_domain_Job_contact" object="${job}" z="5JDS77m6E7nBk43QPS9Fn8zJ9BY="/>
+        <field:display field="jobType" id="s_com_darkhorse_getsporty_domain_Job_jobType" object="${job}" z="PSD9Jl8qR+kUdZo5KWo8Tr7ITUc="/>
+        <field:display field="enable" id="s_com_darkhorse_getsporty_domain_Job_enable" object="${job}" z="yOVNj5p+JvaRKtsA3JadIcrDZ/E="/>
+        <field:display field="desiredSkills" id="s_com_darkhorse_getsporty_domain_Job_desiredSkills" object="${job}" z="hWXURWNwdUnzIe48w/NeuogiqJ8="/>
+        <field:display field="modeOfApply" id="s_com_darkhorse_getsporty_domain_Job_modeOfApply" object="${job}" z="uDedfqU5JJ2wAYo+IdfmY4NxDyQ="/>
+        <field:display field="organization" id="s_com_darkhorse_getsporty_domain_Job_organization" object="${job}" z="Ld141Sq8NWPJRLjR7Kkc2t5OMjI="/>
+        <field:display field="jobLinks" id="s_com_darkhorse_getsporty_domain_Job_jobLinks" object="${job}" z="VaO7TiEYtY0JJsD0G3fN2wKrUoE="/>
+        <field:display field="experience" id="s_com_darkhorse_getsporty_domain_Job_experience" object="${job}" z="9Y9gP7Bm+S1Nj0KDkP5Qog1iePU="/>
+    </page:show>
+</div>

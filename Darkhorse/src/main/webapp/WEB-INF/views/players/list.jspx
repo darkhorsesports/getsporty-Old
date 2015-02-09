@@ -6,10 +6,11 @@
         <table:table data="${players}" id="l_com_darkhorse_getsporty_domain_Player" path="/players" z="lEO6z7lMUKuKCtsBoCi2P83n8PM=">
             <table:column id="c_com_darkhorse_getsporty_domain_Player_profileLinks" property="profileLinks" z="oe/+e8mmjtUy41DQxCAm5zSDoeQ="/>
             <table:column id="c_com_darkhorse_getsporty_domain_Player_about" property="about" z="WZKTj/+4admYh7qZ9IlsTmhHHT4="/>
-            <table:column id="c_com_darkhorse_getsporty_domain_Player_contact" property="contact" z="0iKPpodvqhFtzlXqxrlTafDVGho="/>
+            <!-- <table:column id="c_com_darkhorse_getsporty_domain_Player_contact" property="contact" z="0iKPpodvqhFtzlXqxrlTafDVGho="/> -->
             <table:column id="c_com_darkhorse_getsporty_domain_Player_profileImage" property="profileImage" z="fzxeOjd/aQSOvr9rLloMkdmnyhg="/>
             <table:column id="c_com_darkhorse_getsporty_domain_Player_gallery" property="gallery" z="iB1cUzrxn/sdCBxJEi9Xg5qpTaU="/>
             <table:column id="c_com_darkhorse_getsporty_domain_Player_visibility" property="visibility" z="a6PMFfHZmMGWxmZEnoX2VHid/KI="/>
+            
         </table:table>
     </page:list>
 </div>

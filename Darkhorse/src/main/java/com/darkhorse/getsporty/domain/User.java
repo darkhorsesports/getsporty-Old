@@ -1,8 +1,7 @@
 package com.darkhorse.getsporty.domain;
 
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -39,6 +38,7 @@ public class User {
     private Date created = new Date();
 
     @ManyToMany(cascade = CascadeType.ALL)
-    private Set<UserRole> userRoles = new HashSet<UserRole>();
+    private List<UserRole> userRoles;
     
+    private String deviceId;
 }

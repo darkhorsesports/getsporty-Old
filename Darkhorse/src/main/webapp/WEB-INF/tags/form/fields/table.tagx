@@ -102,7 +102,7 @@
           </td>
           <c:if test="${update}">
             <td class="utilbox">
-              <spring:url value="${path}/${itemId}" var="update_form_url">
+              <spring:url value="${path}/edit/${itemId}" var="update_form_url">
                 <spring:param name="form" />
               </spring:url>
               <spring:url value="/resources/images/update.png" var="update_image_url" />

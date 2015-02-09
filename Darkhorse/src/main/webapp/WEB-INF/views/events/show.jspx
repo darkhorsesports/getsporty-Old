@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_darkhorse_getsporty_domain_Event" object="${event}" path="/events" z="gvkiLdR8a5QM8izevoMSlJvW/YE=">
+        <field:display field="title" id="s_com_darkhorse_getsporty_domain_Event_title" object="${event}" z="qEZzqQ4PE8e0nIJeIkGI/zlr61o="/>
+        <field:display field="description" id="s_com_darkhorse_getsporty_domain_Event_description" object="${event}" z="0CTfwbPQ/xidoeES6PL9Qj+Hry8="/>
+        <field:display field="location" id="s_com_darkhorse_getsporty_domain_Event_location" object="${event}" z="WdJDpXr6QCl5oZX35nHJ73dKFjo="/>
+        <field:display field="contact" id="s_com_darkhorse_getsporty_domain_Event_contact" object="${event}" z="J4jYuCNMhnzxkxNU+/U65114ofE="/>
+        <field:display field="organizer" id="s_com_darkhorse_getsporty_domain_Event_organizer" object="${event}" z="UfzQD2qu/pif/WdKvp5F0OpF7EI="/>
+        <field:display field="termsandcondition" id="s_com_darkhorse_getsporty_domain_Event_termsandcondition" object="${event}" z="dA6onfkI1U3WlO5VktIHvMY0K1I="/>
+        <field:display field="entryAmount" id="s_com_darkhorse_getsporty_domain_Event_entryAmount" object="${event}" z="U+VYu8OMR0cfd9k+fC0RpsFTOe8="/>
+        <field:display field="prize" id="s_com_darkhorse_getsporty_domain_Event_prize" object="${event}" z="1Of+9dKGf1rNnREQJGfWVoam/Mk="/>
+        <field:display field="eligibilty" id="s_com_darkhorse_getsporty_domain_Event_eligibilty" object="${event}" z="M9u6i7Xgc0l0cUq+IgIvjOFyMNk="/>
+        <field:display field="agegroup" id="s_com_darkhorse_getsporty_domain_Event_agegroup" object="${event}" z="w30fdzL8t/UIjTTJaWDjhVVB+H4="/>
+        <field:display date="true" dateTimePattern="${event_startdate_date_format}" field="startDate" id="s_com_darkhorse_getsporty_domain_Event_startDate" object="${event}" z="F/ds8gJBqAqV/UHDiR2cMTNHN/I="/>
+        <field:display date="true" dateTimePattern="${event_enddate_date_format}" field="endDate" id="s_com_darkhorse_getsporty_domain_Event_endDate" object="${event}" z="bpGn6S7l5os1A+V2ZLo/wzBrlXM="/>
+        <field:display field="enable" id="s_com_darkhorse_getsporty_domain_Event_enable" object="${event}" z="EE24umDFVWUChKqXtbLIfzQerEA="/>
+        <field:display field="eventBanner" id="s_com_darkhorse_getsporty_domain_Event_eventBanner" object="${event}" z="P0yUblL3vtg8Z/N8itZafw86pAc="/>
+    </page:show>
+</div>

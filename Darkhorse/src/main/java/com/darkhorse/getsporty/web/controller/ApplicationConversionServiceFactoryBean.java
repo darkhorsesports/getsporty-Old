@@ -15,4 +15,5 @@ public class ApplicationConversionServiceFactoryBean extends FormattingConversio
 		super.installFormatters(registry);
 		// Register application converters and formatters
 	}
+
 }

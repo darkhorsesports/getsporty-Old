@@ -5,13 +5,19 @@ package com.darkhorse.getsporty.web.controller;
 
 import com.darkhorse.getsporty.domain.Academy;
 import com.darkhorse.getsporty.domain.Coach;
+import com.darkhorse.getsporty.domain.Employee;
+import com.darkhorse.getsporty.domain.Event;
+import com.darkhorse.getsporty.domain.Job;
 import com.darkhorse.getsporty.domain.Player;
 import com.darkhorse.getsporty.domain.User;
 import com.darkhorse.getsporty.domain.UserRole;
 import com.darkhorse.getsporty.svc.UserRoleSvc;
 import com.darkhorse.getsporty.svc.UserSvc;
+import com.darkhorse.getsporty.svc.abc.EmployeeSvc;
 import com.darkhorse.getsporty.svc.academy.AcademySvc;
 import com.darkhorse.getsporty.svc.coach.CoachSvc;
+import com.darkhorse.getsporty.svc.event.EventSvc;
+import com.darkhorse.getsporty.svc.job.JobSvc;
 import com.darkhorse.getsporty.svc.player.PlayerSvc;
 import com.darkhorse.getsporty.web.controller.ApplicationConversionServiceFactoryBean;
 import java.math.BigInteger;
@@ -29,6 +35,15 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     @Autowired
     CoachSvc ApplicationConversionServiceFactoryBean.coachSvc;
+    
+    @Autowired
+    EmployeeSvc ApplicationConversionServiceFactoryBean.employeeSvc;
+    
+    @Autowired
+    EventSvc ApplicationConversionServiceFactoryBean.eventSvc;
+    
+    @Autowired
+    JobSvc ApplicationConversionServiceFactoryBean.jobSvc;
     
     @Autowired
     PlayerSvc ApplicationConversionServiceFactoryBean.playerSvc;
@@ -83,6 +98,78 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         return new org.springframework.core.convert.converter.Converter<java.lang.String, com.darkhorse.getsporty.domain.Coach>() {
             public com.darkhorse.getsporty.domain.Coach convert(String id) {
                 return getObject().convert(getObject().convert(id, BigInteger.class), Coach.class);
+            }
+        };
+    }
+    
+    public Converter<Employee, String> ApplicationConversionServiceFactoryBean.getEmployeeToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Employee, java.lang.String>() {
+            public String convert(Employee employee) {
+                return new StringBuilder().append(employee.getName()).append(' ').append(employee.getAge()).toString();
+            }
+        };
+    }
+    
+    public Converter<BigInteger, Employee> ApplicationConversionServiceFactoryBean.getIdToEmployeeConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.math.BigInteger, com.darkhorse.getsporty.domain.Employee>() {
+            public com.darkhorse.getsporty.domain.Employee convert(java.math.BigInteger id) {
+                return employeeSvc.findEmployee(id);
+            }
+        };
+    }
+    
+    public Converter<String, Employee> ApplicationConversionServiceFactoryBean.getStringToEmployeeConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, com.darkhorse.getsporty.domain.Employee>() {
+            public com.darkhorse.getsporty.domain.Employee convert(String id) {
+                return getObject().convert(getObject().convert(id, BigInteger.class), Employee.class);
+            }
+        };
+    }
+    
+    public Converter<Event, String> ApplicationConversionServiceFactoryBean.getEventToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Event, java.lang.String>() {
+            public String convert(Event event) {
+                return new StringBuilder().append(event.getTitle()).append(' ').append(event.getDescription()).append(' ').append(event.getLocation()).append(' ').append(event.getOrganizer()).toString();
+            }
+        };
+    }
+    
+    public Converter<BigInteger, Event> ApplicationConversionServiceFactoryBean.getIdToEventConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.math.BigInteger, com.darkhorse.getsporty.domain.Event>() {
+            public com.darkhorse.getsporty.domain.Event convert(java.math.BigInteger id) {
+                return eventSvc.findEvent(id);
+            }
+        };
+    }
+    
+    public Converter<String, Event> ApplicationConversionServiceFactoryBean.getStringToEventConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, com.darkhorse.getsporty.domain.Event>() {
+            public com.darkhorse.getsporty.domain.Event convert(String id) {
+                return getObject().convert(getObject().convert(id, BigInteger.class), Event.class);
+            }
+        };
+    }
+    
+    public Converter<Job, String> ApplicationConversionServiceFactoryBean.getJobToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<com.darkhorse.getsporty.domain.Job, java.lang.String>() {
+            public String convert(Job job) {
+                return new StringBuilder().append(job.getTitle()).append(' ').append(job.getOrganization()).append(' ').append(job.getDescription()).append(' ').append(job.getExperience()).toString();
+            }
+        };
+    }
+    
+    public Converter<BigInteger, Job> ApplicationConversionServiceFactoryBean.getIdToJobConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.math.BigInteger, com.darkhorse.getsporty.domain.Job>() {
+            public com.darkhorse.getsporty.domain.Job convert(java.math.BigInteger id) {
+                return jobSvc.findJob(id);
+            }
+        };
+    }
+    
+    public Converter<String, Job> ApplicationConversionServiceFactoryBean.getStringToJobConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, com.darkhorse.getsporty.domain.Job>() {
+            public com.darkhorse.getsporty.domain.Job convert(String id) {
+                return getObject().convert(getObject().convert(id, BigInteger.class), Job.class);
             }
         };
     }
@@ -166,6 +253,15 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getCoachToStringConverter());
         registry.addConverter(getIdToCoachConverter());
         registry.addConverter(getStringToCoachConverter());
+        registry.addConverter(getEmployeeToStringConverter());
+        registry.addConverter(getIdToEmployeeConverter());
+        registry.addConverter(getStringToEmployeeConverter());
+        registry.addConverter(getEventToStringConverter());
+        registry.addConverter(getIdToEventConverter());
+        registry.addConverter(getStringToEventConverter());
+        registry.addConverter(getJobToStringConverter());
+        registry.addConverter(getIdToJobConverter());
+        registry.addConverter(getStringToJobConverter());
         registry.addConverter(getPlayerToStringConverter());
         registry.addConverter(getIdToPlayerConverter());
         registry.addConverter(getStringToPlayerConverter());
